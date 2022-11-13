@@ -3,10 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F1A583829208EE700BC5A0D /* YYModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F1A582E29208EE700BC5A0D /* YYModel.framework */; };
+		1F1A584529208F5800BC5A0D /* YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = D930C3B41F36EDC4005A2D00 /* YYModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F1A584629208F6100BC5A0D /* NSObject+YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = D930C3B01F36EDC4005A2D00 /* NSObject+YYModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F1A584729208F6900BC5A0D /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D930C3B11F36EDC4005A2D00 /* NSObject+YYModel.m */; };
+		1F1A584829208F6900BC5A0D /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D930C3B11F36EDC4005A2D00 /* NSObject+YYModel.m */; };
+		1F1A584929208F6D00BC5A0D /* YYClassInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = D930C3B21F36EDC4005A2D00 /* YYClassInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F1A584A29208F7200BC5A0D /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D930C3B31F36EDC4005A2D00 /* YYClassInfo.m */; };
+		1F1A584B29208F7300BC5A0D /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D930C3B31F36EDC4005A2D00 /* YYClassInfo.m */; };
+		1F1A584C29208F7900BC5A0D /* YYTestAutoTypeConvert.m in Sources */ = {isa = PBXBuildFile; fileRef = D97394F91F36EE2D00FC2DEB /* YYTestAutoTypeConvert.m */; };
+		1F1A584D29208F7C00BC5A0D /* YYTestBlacklistWhitelist.m in Sources */ = {isa = PBXBuildFile; fileRef = D97394FA1F36EE2D00FC2DEB /* YYTestBlacklistWhitelist.m */; };
+		1F1A584E29208F7F00BC5A0D /* YYTestClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D97394FB1F36EE2D00FC2DEB /* YYTestClassInfo.m */; };
+		1F1A584F29208F8200BC5A0D /* YYTestCopyingAndCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = D97394FC1F36EE2D00FC2DEB /* YYTestCopyingAndCoding.m */; };
+		1F1A585029208F8400BC5A0D /* YYTestCustomClass.m in Sources */ = {isa = PBXBuildFile; fileRef = D97394FD1F36EE2D00FC2DEB /* YYTestCustomClass.m */; };
+		1F1A585129208F8800BC5A0D /* YYTestDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = D97394FF1F36EE2D00FC2DEB /* YYTestDescription.m */; };
+		1F1A585229208F8800BC5A0D /* YYTestCustomTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = D97394FE1F36EE2D00FC2DEB /* YYTestCustomTransform.m */; };
+		1F1A585329208F8F00BC5A0D /* YYTestModelMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = D97395021F36EE2D00FC2DEB /* YYTestModelMapper.m */; };
+		1F1A585429208F8F00BC5A0D /* YYTestHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D97395011F36EE2D00FC2DEB /* YYTestHelper.m */; };
+		1F1A585529208F8F00BC5A0D /* YYTestModelToJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = D97395031F36EE2D00FC2DEB /* YYTestModelToJSON.m */; };
+		1F1A585629208F9200BC5A0D /* YYTestNestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D97395041F36EE2D00FC2DEB /* YYTestNestModel.m */; };
 		D927FA881F36EB6C007B972E /* YYModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D927FA7E1F36EB6C007B972E /* YYModel.framework */; };
 		D930C3B51F36EDC4005A2D00 /* NSObject+YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = D930C3B01F36EDC4005A2D00 /* NSObject+YYModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D930C3B61F36EDC4005A2D00 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D930C3B11F36EDC4005A2D00 /* NSObject+YYModel.m */; };
@@ -29,6 +48,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		1F1A583929208EE700BC5A0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D927FA751F36EB6C007B972E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F1A582D29208EE700BC5A0D;
+			remoteInfo = "YYModel macOS";
+		};
 		D927FA891F36EB6C007B972E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D927FA751F36EB6C007B972E /* Project object */;
@@ -39,6 +65,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F1A582E29208EE700BC5A0D /* YYModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F1A583729208EE700BC5A0D /* YYModel macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "YYModel macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F1A58572920906200BC5A0D /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
 		D927FA7E1F36EB6C007B972E /* YYModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D927FA821F36EB6C007B972E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Framework/Info.plist; sourceTree = "<group>"; };
 		D927FA871F36EB6C007B972E /* YYModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,6 +92,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1F1A582B29208EE700BC5A0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F1A583429208EE700BC5A0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F1A583829208EE700BC5A0D /* YYModel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D927FA7A1F36EB6C007B972E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -95,6 +139,8 @@
 			children = (
 				D927FA7E1F36EB6C007B972E /* YYModel.framework */,
 				D927FA871F36EB6C007B972E /* YYModelTests.xctest */,
+				1F1A582E29208EE700BC5A0D /* YYModel.framework */,
+				1F1A583729208EE700BC5A0D /* YYModel macOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,6 +154,7 @@
 				D930C3B21F36EDC4005A2D00 /* YYClassInfo.h */,
 				D930C3B31F36EDC4005A2D00 /* YYClassInfo.m */,
 				D927FA821F36EB6C007B972E /* Info.plist */,
+				1F1A58572920906200BC5A0D /* Documentation.docc */,
 			);
 			name = YYModel;
 			path = ../YYModel;
@@ -137,6 +184,16 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		1F1A582929208EE700BC5A0D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F1A584529208F5800BC5A0D /* YYModel.h in Headers */,
+				1F1A584629208F6100BC5A0D /* NSObject+YYModel.h in Headers */,
+				1F1A584929208F6D00BC5A0D /* YYClassInfo.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D927FA7B1F36EB6C007B972E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -150,6 +207,42 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		1F1A582D29208EE700BC5A0D /* YYModel macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F1A584329208EE700BC5A0D /* Build configuration list for PBXNativeTarget "YYModel macOS" */;
+			buildPhases = (
+				1F1A582929208EE700BC5A0D /* Headers */,
+				1F1A582A29208EE700BC5A0D /* Sources */,
+				1F1A582B29208EE700BC5A0D /* Frameworks */,
+				1F1A582C29208EE700BC5A0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YYModel macOS";
+			productName = "YYModel macOS";
+			productReference = 1F1A582E29208EE700BC5A0D /* YYModel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1F1A583629208EE700BC5A0D /* YYModel macOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F1A584429208EE700BC5A0D /* Build configuration list for PBXNativeTarget "YYModel macOSTests" */;
+			buildPhases = (
+				1F1A583329208EE700BC5A0D /* Sources */,
+				1F1A583429208EE700BC5A0D /* Frameworks */,
+				1F1A583529208EE700BC5A0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F1A583A29208EE700BC5A0D /* PBXTargetDependency */,
+			);
+			name = "YYModel macOSTests";
+			productName = "YYModel macOSTests";
+			productReference = 1F1A583729208EE700BC5A0D /* YYModel macOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		D927FA7D1F36EB6C007B972E /* YYModel */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D927FA921F36EB6C007B972E /* Build configuration list for PBXNativeTarget "YYModel" */;
@@ -192,9 +285,15 @@
 		D927FA751F36EB6C007B972E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 1410;
 				ORGANIZATIONNAME = ibireme;
 				TargetAttributes = {
+					1F1A582D29208EE700BC5A0D = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					1F1A583629208EE700BC5A0D = {
+						CreatedOnToolsVersion = 14.1;
+					};
 					D927FA7D1F36EB6C007B972E = {
 						CreatedOnToolsVersion = 9.0;
 					};
@@ -204,7 +303,7 @@
 				};
 			};
 			buildConfigurationList = D927FA781F36EB6C007B972E /* Build configuration list for PBXProject "YYModel" */;
-			compatibilityVersion = "Xcode 8.0";
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -217,11 +316,27 @@
 			targets = (
 				D927FA7D1F36EB6C007B972E /* YYModel */,
 				D927FA861F36EB6C007B972E /* YYModelTests */,
+				1F1A582D29208EE700BC5A0D /* YYModel macOS */,
+				1F1A583629208EE700BC5A0D /* YYModel macOSTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1F1A582C29208EE700BC5A0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F1A583529208EE700BC5A0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D927FA7C1F36EB6C007B972E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -239,6 +354,35 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1F1A582A29208EE700BC5A0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F1A584A29208F7200BC5A0D /* YYClassInfo.m in Sources */,
+				1F1A584729208F6900BC5A0D /* NSObject+YYModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F1A583329208EE700BC5A0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F1A584C29208F7900BC5A0D /* YYTestAutoTypeConvert.m in Sources */,
+				1F1A585229208F8800BC5A0D /* YYTestCustomTransform.m in Sources */,
+				1F1A585129208F8800BC5A0D /* YYTestDescription.m in Sources */,
+				1F1A585429208F8F00BC5A0D /* YYTestHelper.m in Sources */,
+				1F1A585029208F8400BC5A0D /* YYTestCustomClass.m in Sources */,
+				1F1A585629208F9200BC5A0D /* YYTestNestModel.m in Sources */,
+				1F1A584E29208F7F00BC5A0D /* YYTestClassInfo.m in Sources */,
+				1F1A584B29208F7300BC5A0D /* YYClassInfo.m in Sources */,
+				1F1A585329208F8F00BC5A0D /* YYTestModelMapper.m in Sources */,
+				1F1A584D29208F7C00BC5A0D /* YYTestBlacklistWhitelist.m in Sources */,
+				1F1A584F29208F8200BC5A0D /* YYTestCopyingAndCoding.m in Sources */,
+				1F1A585529208F8F00BC5A0D /* YYTestModelToJSON.m in Sources */,
+				1F1A584829208F6900BC5A0D /* NSObject+YYModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D927FA791F36EB6C007B972E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -271,6 +415,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		1F1A583A29208EE700BC5A0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F1A582D29208EE700BC5A0D /* YYModel macOS */;
+			targetProxy = 1F1A583929208EE700BC5A0D /* PBXContainerItemProxy */;
+		};
 		D927FA8A1F36EB6C007B972E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D927FA7D1F36EB6C007B972E /* YYModel */;
@@ -279,6 +428,110 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		1F1A583F29208EE700BC5A0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 58GTYMQJRP;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2022 ibireme. All rights reserved.";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibireme.YYModel;
+				PRODUCT_NAME = YYModel;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		1F1A584029208EE700BC5A0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 58GTYMQJRP;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2022 ibireme. All rights reserved.";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibireme.YYModel;
+				PRODUCT_NAME = YYModel;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		1F1A584129208EE700BC5A0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 58GTYMQJRP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bignerdcoding.YYModel-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+			};
+			name = Debug;
+		};
+		1F1A584229208EE700BC5A0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 58GTYMQJRP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bignerdcoding.YYModel-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+			};
+			name = Release;
+		};
 		D927FA901F36EB6C007B972E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -293,13 +546,18 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -327,7 +585,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -350,13 +608,18 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -378,7 +641,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -399,11 +662,22 @@
 				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ibireme.YYModel;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
 			};
 			name = Debug;
 		};
@@ -419,11 +693,22 @@
 				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ibireme.YYModel;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
 			};
 			name = Release;
 		};
@@ -432,7 +717,11 @@
 			buildSettings = {
 				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/../YYModelTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ibireme.YYModelTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -444,7 +733,11 @@
 			buildSettings = {
 				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/../YYModelTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ibireme.YYModelTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -454,6 +747,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1F1A584329208EE700BC5A0D /* Build configuration list for PBXNativeTarget "YYModel macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F1A583F29208EE700BC5A0D /* Debug */,
+				1F1A584029208EE700BC5A0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F1A584429208EE700BC5A0D /* Build configuration list for PBXNativeTarget "YYModel macOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F1A584129208EE700BC5A0D /* Debug */,
+				1F1A584229208EE700BC5A0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D927FA781F36EB6C007B972E /* Build configuration list for PBXProject "YYModel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
